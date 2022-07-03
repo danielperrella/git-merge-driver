@@ -62,6 +62,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>GestioneDelNulla</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Gestione_Corsi</application>
         <default>false</default>
         <visible>false</visible>
@@ -52657,7 +52662,7 @@
         <recordType>Opportunity.EnterpriseUpsell</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OpportunityContactRole-Layout Ruolo referente opportunità</layout>
+        <layout>OpportunityContactRole-Layout Ruolo referente opportunitï¿½</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OpportunityLineItem-Opportunity Product Layout</layout>
