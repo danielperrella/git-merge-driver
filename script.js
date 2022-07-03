@@ -22,9 +22,9 @@ console.log('base',base);
 console.log('theirs',theirs);
 console.log('filename',filename);
 
-const baseJson = JSON.parse(fs.readFileSync(base));
-const oursJson = JSON.parse(fs.readyFileSync(ours));
-const theirsJson = JSON.parse(fs.readyFileSync(theirs));
+const baseJson = fs.readFileSync(base);
+const oursJson = fs.readyFileSync(ours);
+const theirsJson = fs.readyFileSync(theirs);
 
 console.log('baseJson',baseJson);
 console.log('oursJson',oursJson);
