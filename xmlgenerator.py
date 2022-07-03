@@ -1,5 +1,5 @@
 import profileparser
-import python.objectdefinition as objectdefinition
+import objectdefinition
 
 def generatexml(inputlist):
     inputlist.sort()

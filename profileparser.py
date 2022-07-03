@@ -1,6 +1,6 @@
 import logging
 import xml.etree.ElementTree as ET
-import python.objectdefinition as objectdefinition
+import objectdefinition
 import importlib
 
 def printobjlist(mylist):

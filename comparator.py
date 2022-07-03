@@ -1,4 +1,4 @@
-import python.objectdefinition as objectdefinition
+import objectdefinition
 
 '''This method concatenate two list and avoid duplicate'''
 def compare(firstlist,secondlist):
