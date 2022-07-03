@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+from heapq import merge
 from profileparser import parse
 from comparator import compare
 from xmlgenerator import generatexml
@@ -23,12 +24,18 @@ parser.add_argument("Filename", type=str, help = "Placeholder / real file name")
 
 args = parser.parse_args()
 
+print('args.Our:',args.Our)
+print('args.Base:',args.Base)
+print('args.Other:',args.Other)
+print('args.Filename:',args.Filename)
  
 try:
     parse1 = parse(args.Our)
     parse2 = parse(args.Other)
     merged = compare(parse1,parse2)
+    print('merged complete')
     outputxml = generatexml(merged)
+    print(outputxml)
     writeonfile(outputxml,args.Our,args.Filename)
 except Exception as e:
     print(e)
