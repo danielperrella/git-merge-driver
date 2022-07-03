@@ -23,8 +23,8 @@ console.log('theirs',theirs);
 console.log('filename',filename);
 
 const baseJson = fs.readFileSync(base);
-const oursJson = fs.readyFileSync(ours);
-const theirsJson = fs.readyFileSync(theirs);
+const oursJson = fs.readFileSync(ours);
+const theirsJson = fs.readFileSync(theirs);
 
 console.log('baseJson',baseJson);
 console.log('oursJson',oursJson);
@@ -33,11 +33,12 @@ console.log('theirsJson',theirsJson);
 // We can do whatever we want, in this example we just take the new entries from
 // our branch and put the new entries from the other branch on top of them
 const mergedJson = {
-  entries: [
-    ...baseJson.entries,
-    ...oursJson.entries.slice(baseJson.entries.length),
-    ...theirsJson.entries.slice(baseJson.entries.length)
-  ]
+  // entries: [
+  //   ...baseJson.entries,
+  //   ...oursJson.entries.slice(baseJson.entries.length),
+  //   ...theirsJson.entries.slice(baseJson.entries.length)
+  // ]
+  'ciao':'hello'
 };
 
 // To resolve the conflict simply write to the current branch file
