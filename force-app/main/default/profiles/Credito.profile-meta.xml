@@ -1,5 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credito</fullName>
+    <applicationVisibilities>
+        <application>Amministrazione_Dealer_Station</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Amministrazione_Migrazione_CPQ</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Annullamenti</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>AppDashboard</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>B2WExtCat__External_Catalog_Management</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Bit2Archetypes__Bit2Win_Archetypes</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Bit2winStore</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>ConsoleCustomerCare</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Console_Social</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Dealer_Station</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Enterprise_LOM</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>GestioneOrdini</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Gestione_Corsi</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Gestione_Scarti</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
     <applicationVisibilities>
         <application>Migrazione_USIM</application>
         <default>false</default>
@@ -4003,6 +4074,162 @@
     <classAccesses>
         <apexClass>CtrlSocialAssignToQueue</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlSocialLinkCustomer</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlSubscription</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlSubscription_CPQ</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlSubscription_OM</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlTTSMashup</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlTaskPageDispatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlTeamConfiguration</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlTerminateCase</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlUsimMigrationPage</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlUsimMigrationStatus</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlVarPreTrasloco</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewAsset</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewAssetConsumi</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewAssetConsumiTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewBillingAccount</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewCase</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewCase_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewChatbotHistory</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewContact</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewCustomerBundle</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewCustomerCPQOrder</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewDocument</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewFWDocument</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewInteraction</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewInteraction_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewInvoice</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewInvoiceArchived</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewInvoicePaymentStatus</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewPortfolio</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewPortfolioConsumi</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlViewTelephony</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CtrlView_NPOUT</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CustomException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CustomerCharacterizationMapper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CustomerDeletionAccountNotify</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CustomerDeletionBatch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CustomerDeletionBatchManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CustomerDeletionDATARETENTIONSc</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CustomerDeletionNotifyBatch</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CustomerDeletionOBLIOSc</apexClass>
@@ -18190,11 +18417,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Asset.LogicDeleteforRemediation__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>Asset.ManufactureDate</field>
         <readable>false</readable>
@@ -25697,11 +25919,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Scope__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.Segment__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -36057,6 +36274,36 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>MfpCaseStatusTranscoding__mdt.WhenClosedInKO__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MfpCommunityCaseVisibility__mdt.CaseType__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MfpCommunityCaseVisibility__mdt.IsVisibleAsChildCase__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MfpCommunityCaseVisibility__mdt.IsVisible__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MfpCommunityClosedCaseVisibility__mdt.IsVisible__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MfpDebugSetting__mdt.IsActive__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MfpVisibleCaseDescriptionPerOrigin__mdt.IsVisible__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -49675,19 +49922,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>TracciamentoNotifiche__c.CaseId__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>TracciamentoNotifiche__c.DeliveryDate__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TracciamentoNotifiche__c.DeliveryDate__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -49700,19 +49937,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>TracciamentoNotifiche__c.OrderId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>TracciamentoNotifiche__c.OrderItemId__c</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>TracciamentoNotifiche__c.OrderItemId__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -50351,11 +50578,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>cache_invoice_c__x.execution_id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>cache_invoice_c__x.expirationdate_c__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -50372,11 +50594,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>cache_invoice_c__x.instock_c__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>cache_invoice_c__x.invoicecode_c__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -50487,11 +50704,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>cache_invoice_c__x.systemmodstamp__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>cache_invoice_c__x.totaltopay_c__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -50639,7 +50851,7 @@
         <flow>sfdc_test</flow>
     </flowAccesses>
     <layoutAssignments>
-        <layout>ExpEsbCtpNetServiceVs__x-ExpEsbCtpNetServiceVs Layout</layout>
+        <layout>Account-Account Layout Master</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-B2B - Account Layout</layout>
@@ -50650,35 +50862,44 @@
         <recordType>Account.B2C</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkOrder-Work Order Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WONoticeSetting__mdt-WONoticeSetting Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout Master</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Account-Account Layout</layout>
         <recordType>Account.ConsumerBucket</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkaroundLog__c-WorkaroundLog Layout</layout>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.ConsumerPartner</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>UserAlt-Layout Profilo utente</layout>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.Enterprise</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>User-User Layout</layout>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.EnterprisePartner</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TracciamentoNotifiche__c-Tracciamento Notifica Layout</layout>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.EnterpriseProspect</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Toponomy_Setting__mdt-Toponomy Setting Layout</layout>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.Flagship</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-NE__Account Business Layout</layout>
+        <recordType>Account.NE__Business</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-NE__Account Consumer Layout</layout>
+        <recordType>Account.NE__Consumer</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Prospect Residential - Account Layout</layout>
+        <recordType>Account.ProspectResidential</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Prospect SHP - Account Layout</layout>
+        <recordType>Account.ProspectShp</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AccountBrand-Account BrandLayout</layout>
@@ -50720,67 +50941,85 @@
         <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TestingOrg__mdt-TestingOrg Layout</layout>
+        <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
+        <recordType>B2WExtCat__External_Catalog_Item__c.B2WExtCat__Approval</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Telephony__c-Telephony Layout</layout>
+        <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
+        <recordType>B2WExtCat__External_Catalog_Item__c.B2WExtCat__Check</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TechnologyRemapping__mdt-Technology Remapping Layout</layout>
+        <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
+        <recordType>B2WExtCat__External_Catalog_Item__c.B2WExtCat__Equipment</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TechnicalRocAccess__mdt-Technical Roc Access Layout</layout>
+        <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
+        <recordType>B2WExtCat__External_Catalog_Item__c.B2WExtCat__Installation</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TechnicalGuide__kav-Manuale Tecnico Layout</layout>
+        <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
+        <recordType>B2WExtCat__External_Catalog_Item__c.B2WExtCat__Service</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TechnicalArticle__kav-Technical Article Layout</layout>
+        <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
+        <recordType>B2WExtCat__External_Catalog_Item__c.B2WExtCat__Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>B2WExtCat__External_Catalog__c-B2WExtCat__External Catalog Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TeamConfiguration__c-Team Configuration Layout</layout>
+        <layout>B2WExtCat__External_Catalog__c-B2WExtCat__External Catalog Layout</layout>
+        <recordType>B2WExtCat__External_Catalog__c.B2WExtCat__Billing</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TbsAutomation__c-Tbs Automation Layout</layout>
+        <layout>B2WExtCat__External_Catalog__c-B2WExtCat__External Catalog Layout</layout>
+        <recordType>B2WExtCat__External_Catalog__c.B2WExtCat__Provisioning</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Task-Task Layout</layout>
+        <layout>B2WExtCat__External_Catalog__c-B2WExtCat__External Catalog Layout</layout>
+        <recordType>B2WExtCat__External_Catalog__c.B2WExtCat__Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TabellaRecapiti__c-TabellaRecapiti Layout</layout>
+        <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
+        <recordType>B2WExtCat__Work_Order_Item__c.B2WExtCat__Approval</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Staging_rejected_order__c-Staging rejected order Layout</layout>
+        <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
+        <recordType>B2WExtCat__Work_Order_Item__c.B2WExtCat__Check</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>StagingMessage__c-StagingMessage Layout</layout>
+        <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
+        <recordType>B2WExtCat__Work_Order_Item__c.B2WExtCat__Equipment</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Solution-Solution Layout</layout>
+        <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
+        <recordType>B2WExtCat__Work_Order_Item__c.B2WExtCat__Installation</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SocialPost-Social Post Layout</layout>
+        <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
+        <recordType>B2WExtCat__Work_Order_Item__c.B2WExtCat__Service</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SocialPersona-Social Persona Layout</layout>
+        <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
+        <recordType>B2WExtCat__Work_Order_Item__c.B2WExtCat__Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>B2WExtCat__Work_Order__c-B2WExtCat__Work Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Site__c-Site Layout</layout>
+        <layout>B2WExtCat__Work_Order__c-B2WExtCat__Work Order Layout</layout>
+        <recordType>B2WExtCat__Work_Order__c.B2WExtCat__Billing</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SiteAddress__c-Site Address Layout</layout>
+        <layout>B2WExtCat__Work_Order__c-B2WExtCat__Work Order Layout</layout>
+        <recordType>B2WExtCat__Work_Order__c.B2WExtCat__Provisioning</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ServiceLog__c-ServiceLog Layout</layout>
+        <layout>B2WExtCat__Work_Order__c-B2WExtCat__Work Order Layout</layout>
+        <recordType>B2WExtCat__Work_Order__c.B2WExtCat__Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>BACOMMigration__c-BACOMMigration Layout</layout>
@@ -50801,10 +51040,12 @@
         <layout>BillingAccount__c-Residential - BIlling Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ServiceContract-Service Contract Layout</layout>
+        <layout>BillingAccount__c-Residential - BIlling Account Layout</layout>
+        <recordType>BillingAccount__c.Residential</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Sequence__c-Sequence Layout</layout>
+        <layout>BillingAccount__c-Shp - Billing Account Layout</layout>
+        <recordType>BillingAccount__c.Shp</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>BillingFourWeeksCPQArchetype__c-Billing Four Weeks CPQ Archetype Layout</layout>
@@ -50816,52 +51057,67 @@
         <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Archetype Action Parameter Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ScorecardMetric-Scorecard Metric Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Input value</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Parameter__c.Bit2Archetypes__Fixed_List</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Input value</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Parameter__c.Bit2Archetypes__Input_value</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Scorecard-Scorecard Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Lookup</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Parameter__c.Bit2Archetypes__Lookup</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SalesChannelRemapping__mdt-Sales Channel Remapping Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Lov value</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Parameter__c.Bit2Archetypes__Lov_value</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SMSEmailCharacterization__mdt-SMS Email Characterization Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Object field</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Parameter__c.Bit2Archetypes__Object_field</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SData__c-SData Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Object search</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Parameter__c.Bit2Archetypes__Object_search</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__Archetype Action Step Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Risposta__c-Risposta Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__CLONE NODE</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__CLONE_NODE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ReportsForDownload__c-Report for download Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__COMPLEX SET ATTRIBUTE</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__COMPLEX_SET_ATTRIBUTE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>QuoteLineItem-Quote Line Item Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__CREATE NODE</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__CREATE_NODE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Quote-Quote Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__MULTIPLE SET ATTRIBUTE</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__MULTIPLE_SET_ATTRIBUTE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>QuickText-Quick Text Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__MULTIPLE SET NODE</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__MULTIPLE_SET_NODE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>QueueableJobsSetting__mdt-Queueable Jobs Setting Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__REMOVE ATTRIBUTE</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__REMOVE_ATTRIBUTE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ProfitCenter__mdt-Profit Center Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__REMOVE NODE</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__REMOVE_NODE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ProfileToRoc_Type_Assignment__mdt-ProfileToRoc Type Assignment Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__SET ATTRIBUTE</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__SET_ATTRIBUTE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ProductServiceCategory__c-Product Service Category Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__SET TEXT NODE</layout>
+        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__SET_TEXT_NODE</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bit2Archetypes__Archetype_Action__c-Bit2Archetypes__Archetype Action Layout</layout>
@@ -50876,31 +51132,39 @@
         <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Archetype Condition Parameter Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Product2-Product Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Fixed List</layout>
+        <recordType>Bit2Archetypes__Archetype_Condition_Parameter__c.Bit2Archetypes__Fixed_List</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ProcessRetentionOpeningRules__mdt-Proc Retention Opening Rule Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Input value</layout>
+        <recordType>Bit2Archetypes__Archetype_Condition_Parameter__c.Bit2Archetypes__Input_value</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ProactiveKOSetting__mdt-Exclude KO Setting Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Lookup</layout>
+        <recordType>Bit2Archetypes__Archetype_Condition_Parameter__c.Bit2Archetypes__Lookup</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PricebookEntry-Price Book Entry Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Lov value</layout>
+        <recordType>Bit2Archetypes__Archetype_Condition_Parameter__c.Bit2Archetypes__Lov_value</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Pricebook2-Price Book Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Object field</layout>
+        <recordType>Bit2Archetypes__Archetype_Condition_Parameter__c.Bit2Archetypes__Object_field</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PreArticle__kav-Pre Article Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Object search</layout>
+        <recordType>Bit2Archetypes__Archetype_Condition_Parameter__c.Bit2Archetypes__Object_search</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bit2Archetypes__Archetype_Condition__c-Bit2Archetypes__Archetype Condition Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Portfolio__c-Portfolio Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Condition__c-Bit2Archetypes__Archetype Condition Layout</layout>
+        <recordType>Bit2Archetypes__Archetype_Condition__c.Bit2Archetypes__ChangeOffer</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PinotNotice__mdt-PinotNotice Layout</layout>
+        <layout>Bit2Archetypes__Archetype_Condition__c-Bit2Archetypes__Archetype Condition Layout</layout>
+        <recordType>Bit2Archetypes__Archetype_Condition__c.Bit2Archetypes__Rule</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bit2Archetypes__Archetype_Instance_Parameter__c-Bit2Archetypes__Archetype Instance Condition Layout</layout>
@@ -50915,10 +51179,12 @@
         <layout>Bit2Archetypes__Archetype__c-Bit2Archetypes__Archetype Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PermessiCambioSim__c-Permesso Cambio Sim Layout</layout>
+        <layout>Bit2Archetypes__Archetype__c-Bit2Archetypes__Archetype Layout</layout>
+        <recordType>Bit2Archetypes__Archetype__c.Bit2Archetypes__ChangeOffer</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PegaRocManagement__mdt-PegaRocManagement Layout</layout>
+        <layout>Bit2Archetypes__Archetype__c-Bit2Archetypes__Archetype Layout</layout>
+        <recordType>Bit2Archetypes__Archetype__c.Bit2Archetypes__Rule</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bit2Shop__Cash_Transaction__c-Bit2Shop__Cash Transaction Layout</layout>
@@ -50930,10 +51196,12 @@
         <layout>Bit2Shop__Dealer__c-Bit2Shop__Dealer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Pda_Signature_Setting__mdt-Pda Signature Setting Layout</layout>
+        <layout>Bit2Shop__Dealer__c-Bit2Shop__Not Flagship Layout Division</layout>
+        <recordType>Bit2Shop__Dealer__c.Bit2Shop__Division</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Partnership__c-Partnership Layout</layout>
+        <layout>Bit2Shop__Dealer__c-Bit2Shop__Not Flagship Layout Point of Sales</layout>
+        <recordType>Bit2Shop__Dealer__c.Bit2Shop__Point_of_sales</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bit2Shop__Inventory__c-Bit2Shop__Inventory Layout</layout>
@@ -50942,10 +51210,12 @@
         <layout>Bit2Shop__Product_Stock__c-Bit2Shop__Product Stock Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PartnershipEventMatrix__mdt-PartnershipEventMatrix Layout</layout>
+        <layout>Bit2Shop__Product_Stock__c-Bit2Shop__Product Stock Layout</layout>
+        <recordType>Bit2Shop__Product_Stock__c.Bit2Shop__Closed</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PartitaIVA_PA__c-PartitaIVA_PA Layout</layout>
+        <layout>Bit2Shop__Product_Stock__c-Bit2Shop__Product Stock Layout</layout>
+        <recordType>Bit2Shop__Product_Stock__c.Bit2Shop__Current</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bit2Shop__Reference_Period__c-Bit2Shop__Reference Period Layout</layout>
@@ -50954,22 +51224,26 @@
         <layout>Bit2Shop__Reservation_Request__c-Bit2Shop__Reservation Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Partecipazione__c-Layout Partecipazione - Esame Effettuato</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Bit2Shop__Serial_Stock_History__c-Bit2Shop__Serial Stock History Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OrderRequestAnnulment__c-OrderRequestAnnulment Layout</layout>
+        <layout>Bit2Shop__Serial_Stock_History__c-Bit2Shop__Closed Serial Stock History Layout</layout>
+        <recordType>Bit2Shop__Serial_Stock_History__c.Bit2Shop__Closed</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bit2Shop__Serial_Stock_History__c-Bit2Shop__Serial Stock History Layout</layout>
+        <recordType>Bit2Shop__Serial_Stock_History__c.Bit2Shop__Current</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bit2Shop__Shipment_Line_Item__c-Bit2Shop__Shipment Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OrderRecovery__c-Order Recovery Layout</layout>
+        <layout>Bit2Shop__Shipment_Line_Item__c-Bit2Shop__Shipment Line Item Layout</layout>
+        <recordType>Bit2Shop__Shipment_Line_Item__c.Bit2Shop__Shipment_Line_Item_Product</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OrderRecoveryContainer__c-Order Recovery Container Layout</layout>
+        <layout>Bit2Shop__Shipment_Line_Item__c-Bit2Shop__Shipment Line Item Serial Layout</layout>
+        <recordType>Bit2Shop__Shipment_Line_Item__c.Bit2Shop__Shipment_Line_Item_Serial</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bit2Shop__Shipment__c-Bit2Shop__ShipmentOrder Layout</layout>
@@ -50978,28 +51252,34 @@
         <layout>Bit2Shop__StockActionsDetail__c-Bit2Shop__StockActionsDetail Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OrderItem-Order Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Bit2Shop__StockHistory__c-Bit2Shop__Stock History Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OrderAnnulment__c-Componente in Annullamento Definitivo Layout</layout>
+        <layout>Bit2Shop__StockHistory__c-Bit2Shop__Closed Stock History Layout</layout>
+        <recordType>Bit2Shop__StockHistory__c.Bit2Shop__Closed</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OrderActionSetting__mdt-Layout Order Submit Setting</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Order-Order Layout</layout>
+        <layout>Bit2Shop__StockHistory__c-Bit2Shop__Stock History Layout</layout>
+        <recordType>Bit2Shop__StockHistory__c.Bit2Shop__Current</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bit2Shop__StockOrder__c-Bit2Shop__StockOrder Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OpportunityTeamMember-Opportunity Team Member Layout</layout>
+        <layout>Bit2Shop__StockOrder__c-Bit2Shop__Flagship Purchase Order Layout</layout>
+        <recordType>Bit2Shop__StockOrder__c.Bit2Shop__Purchase</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OpportunityLineItem-Opportunity Product Layout</layout>
+        <layout>Bit2Shop__StockOrder__c-Bit2Shop__Transfer Order Layout</layout>
+        <recordType>Bit2Shop__StockOrder__c.Bit2Shop__Return</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bit2Shop__StockOrder__c-Bit2Shop__Not Flagship Supply Order Layout</layout>
+        <recordType>Bit2Shop__StockOrder__c.Bit2Shop__Supply</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bit2Shop__StockOrder__c-Bit2Shop__Transfer Order Layout</layout>
+        <recordType>Bit2Shop__StockOrder__c.Bit2Shop__Transfer</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bit2Shop__Stock_Action__c-Bit2Shop__Stock Action Layout</layout>
@@ -51101,256 +51381,332 @@
         <layout>Case-Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OpportunityContactRole-Layout Ruolo referente opportunit√†</layout>
+        <layout>Case-INC</layout>
+        <recordType>Case.INC</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Opportunity-Opportunity Layout</layout>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.PROC_ABUSEMAILBLACKLIST</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OSSChannel_Configuration__c-OSSChannel Configuration Layout</layout>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.PROC_ABUSEUNREACHABLE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NumberLimitAdoptionCOMWEB__mdt-Number Limit Adoption COM WEB Layout</layout>
+        <layout>Case-PROC_abuse_PEGA</layout>
+        <recordType>Case.PROC_ABUSE_IP</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NotifyDocCOM__mdt-NotifyDocCOM Layout</layout>
+        <layout>Case-PROC_abuse_PEGA</layout>
+        <recordType>Case.PROC_ABUSE_PHISHING</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Notice__c-Notice Layout</layout>
+        <layout>Case-PROC_abuse_PEGA</layout>
+        <recordType>Case.PROC_ABUSE_SPAM</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NPA__c-NPA Layout</layout>
+        <layout>Case-PROC_abuse_PEGA</layout>
+        <recordType>Case.PROC_ABUSE_VIRUS</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Unit_Of_Measure__c-NE__Unit Of Measure Layout</layout>
+        <layout>Case-PROC_ChangeConsents</layout>
+        <recordType>Case.PROC_CHANGECONSENTS</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Translation__c-NE__Translation Layout</layout>
+        <layout>Case-PROC_ChangeContacts</layout>
+        <recordType>Case.PROC_CHANGECONTACTS</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Threshold__c-NE__Threshold Layout</layout>
+        <layout>Case-PROC_ChangeElectronicInvoice</layout>
+        <recordType>Case.PROC_CHANGEELECTRONICINVOICE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Threshold_Model__c-NE__Threshold Model Layout</layout>
+        <layout>Case-PROC_ChangeEmailShpAdd</layout>
+        <recordType>Case.PROC_CHANGEEMAILSHPADD</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Tax_Model__c-NE__Tax Model Layout</layout>
+        <layout>Case-PROC_ChangeFiscalCode</layout>
+        <recordType>Case.PROC_CHANGEFISCALCODE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Tax_Model_Version__c-NE__Tax Model Version Layout</layout>
+        <layout>Case-PROC_ChangeInvoiceShippAddr</layout>
+        <recordType>Case.PROC_CHANGEINVOICESHIPPADDR</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Task_Process__c-NE__Task Process Layout</layout>
+        <layout>Case-PROC_ChangeMOP</layout>
+        <recordType>Case.PROC_CHANGEMOP</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Service_Point__c-Service Point Layout %28Admin%29</layout>
+        <layout>Case-PROC_ChangePersonalData</layout>
+        <recordType>Case.PROC_CHANGEPERSONALDATA</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Rule__c-NE__Rule Layout</layout>
+        <layout>Case-PROC_ChangeSubscriberList</layout>
+        <recordType>Case.PROC_CHANGESUBSCRIBERLIST</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Rule_Objects__c-NE__Rule_Object Layout</layout>
+        <layout>Case-PROC_ChangeVAT</layout>
+        <recordType>Case.PROC_CHANGEVAT</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Quote__c-NE__Layout Quote</layout>
+        <layout>Case-PROC_ChangeOffer</layout>
+        <recordType>Case.PROC_CHANGE_OFFER</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__PropertyDomain__c-NE__Layout PropertyDomain</layout>
+        <layout>Case-PROC_ChurnPrevention</layout>
+        <recordType>Case.PROC_CHURNPREVENTION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Promotion__c-NE__Layout Promotion</layout>
+        <layout>Case-PROC_ChurnRetentionPre</layout>
+        <recordType>Case.PROC_CHURN_RETENTION_PRE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Promotion_Item__c-NE__Layout Promotion Item</layout>
+        <layout>Case-PROC_Claim</layout>
+        <recordType>Case.PROC_CLAIM</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Product__c-NE__Layout Product</layout>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.PROC_CLOSEACCOUNT</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Product_Wave__c-NE__Product Wave Layout</layout>
+        <layout>Case-PROC_ContactCustomer</layout>
+        <recordType>Case.PROC_CONTACTCUSTOMER</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__ProductFamily__c-NE__Layout ProductFamily</layout>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.PROC_CONTACTDOCUMENTAL</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__ProductFamilyProperty__c-NE__Layout ProductFamilyProperty</layout>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.PROC_CONTACTNATURALDISASTER</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Order__c-Layout Quote - CRM-Pre-Annullamento</layout>
+        <layout>Case-PROC_ContactCheckDataLive</layout>
+        <recordType>Case.PROC_CONTACT_CHECKDATA_LIVE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Order_Item_Attribute__c-NE__Layout Order Item Attribute</layout>
+        <layout>Case-PROC_ContactElectronicInvoice</layout>
+        <recordType>Case.PROC_CONTACT_ELECTRONIC_INVOICE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Order_Header__c-NE__Order Header Layout</layout>
+        <layout>Case-PROC_ContactCustomer</layout>
+        <recordType>Case.PROC_CONTACT_TECH_ASSISTANCE_MANAGEMENT</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Order_Account_Contact__c-NE__Layout Order Account Contact</layout>
+        <layout>Case-PROC_ContractClose</layout>
+        <recordType>Case.PROC_CONTRACTCLOSE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__OrderItem__c-Layout Order Item - CC Pre</layout>
+        <layout>Case-PROC_ContractDeviceWithdrawal</layout>
+        <recordType>Case.PROC_CONTRACTDEVICEWITHDRAWAL</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Multiplier__c-NE__Multiplier Layout</layout>
+        <layout>Case-PROC_ContractDeviceWithdrawal</layout>
+        <recordType>Case.PROC_CONTRACT_DEVICE_WITHDRAWAL_MOBILE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Measurement__c-NE__Measurement Layout</layout>
+        <layout>Case-PROC_ContractTermination</layout>
+        <recordType>Case.PROC_CONTRACT_TERMINATION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Matrix_Parameter__c-NE__Matrix Parameter Layout</layout>
+        <layout>Case-PROC_ContractTerminationMobile</layout>
+        <recordType>Case.PROC_CONTRACT_TERMINATION_MOBILE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Matrix_Parameter_Row__c-NE__Matrix Parameter Row Layout</layout>
+        <layout>Case-PROC_ContractTermination</layout>
+        <recordType>Case.PROC_CONTRACT_TERMINATION_RICIRCOLO</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Matrix_Adjustment__c-NE__Matrix Adjustment Layout</layout>
+        <layout>Case-PROC_CreditRefundAdj</layout>
+        <recordType>Case.PROC_CREDITREFUNDADJ</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Matrix_Adjustment_Row__c-NE__Matrix Adjustment Row Layout</layout>
+        <layout>Case-PROC_CreditRefundCheck</layout>
+        <recordType>Case.PROC_CREDITREFUNDCHECK</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Map__c-NE__Layout Map</layout>
+        <layout>Case-PROC_CreditRefundMobileCharge</layout>
+        <recordType>Case.PROC_CREDITREFUNDMOBILECHARGE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__MapObject__c-NE__Layout Map Object</layout>
+        <layout>Case-PROC_CreditRefundNDCCompensation</layout>
+        <recordType>Case.PROC_CREDITREFUNDNDCCOMPENSATION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__MapObjectItem__c-NE__Layout Map Object Item</layout>
+        <layout>Case-PROC_CreditRefundNDCInvoice</layout>
+        <recordType>Case.PROC_CREDITREFUNDNDCINVOICE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__MapObjectItemAttribute__c-NE__MapObjectItemAttribute Layout</layout>
+        <layout>Case-PROC_CreditRefundADJCompensation</layout>
+        <recordType>Case.PROC_CREDIT_REFUND_ADJ_COMPENSATION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Lov__c-NE__Layout Lov</layout>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.PROC_CREDIT_REFUND_ADJ_ERROR_CANONI</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Lookup_Map__c-NE__Lookup Map Layout</layout>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.PROC_CREDIT_REFUND_ADJ_ERROR_CONSUMI</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Lookup_Map_Value__c-NE__Lookup Map Value Layout</layout>
+        <layout>Case-PROC_CreditRefundAdj</layout>
+        <recordType>Case.PROC_CREDIT_REFUND_ADJ_PRE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Log__c-NE__Log Layout</layout>
+        <layout>Case-PROC_ChangeModem</layout>
+        <recordType>Case.PROC_Change_Modem</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Item_Header__c-NE__Item Header Layout</layout>
+        <layout>Case-PROC_Change_Next</layout>
+        <recordType>Case.PROC_Change_Next</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__IntegrationAdministration__c-NE__Layout Integration Administration</layout>
+        <layout>Case-PROC_DEPROVISIONING_USIM</layout>
+        <recordType>Case.PROC_DEPROVISIONING_USIM</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Import_Request__c-NE__Import Request Layout</layout>
+        <layout>Case-PROC_Fiber_Migration</layout>
+        <recordType>Case.PROC_FIBER_Migration</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Family__c-NE__Layout Family</layout>
+        <layout>Case-PROC_FTTS_FIBER_MIGRATION</layout>
+        <recordType>Case.PROC_FTTS_FIBER_MIGRATION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Export_Request__c-NE__Export Request Layout</layout>
+        <layout>Case-PROC_GDPRPortability</layout>
+        <recordType>Case.PROC_GDPR_PORTABILITY</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Dynamic_Lookup__c-NE__Dynamic Lookup Layout</layout>
+        <layout>Case-PROC_Housemove</layout>
+        <recordType>Case.PROC_HOUSEMOVE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__DynamicPropertyDefinition__c-NE__Layout DynamicPropertyDefinition</layout>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.PROC_INVOICE_CANCELLATION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__DynamicInventory__c-NE__Layout Dynamic Inventory</layout>
+        <layout>Case-PROC_Migration_Technology</layout>
+        <recordType>Case.PROC_MIGRATION_TECHNOLOGY</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__DocumentationCharacterist__c-NE__Layout Documentation Characteristic</layout>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.PROC_MODIFYCOMBSERVICES</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Document_Component__c-NE__Document Component Layout</layout>
+        <layout>Case-PROC_mvno_migration</layout>
+        <recordType>Case.PROC_MVNO_MIGRATION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Document_Component_Header__c-NE__Layout Document Component Header</layout>
+        <layout>Case-PROC_OfferPersonalization</layout>
+        <recordType>Case.PROC_OFFER_PERSONALIZATION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Contract__c-NE__Contract Layout</layout>
+        <layout>Case-PROC_Parkhandling</layout>
+        <recordType>Case.PROC_ORDER_PARKHANDLING</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Contract_Line_Item__c-NE__Contract Line Item Layout</layout>
+        <layout>Case-PROC_ORDER_REJECTED_MNP</layout>
+        <recordType>Case.PROC_ORDER_REJECTED</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Contract_Header__c-NE__Contract Header Layout</layout>
+        <layout>Case-PROC_ORDER_REJECTED_MNP</layout>
+        <recordType>Case.PROC_ORDER_REJECTED_MNP</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Contract_Account_Association__c-NE__Contract Account Association Layout</layout>
+        <layout>Case-PROC_PersDataChgShippMet</layout>
+        <recordType>Case.PROC_PERSDATACHGSHIPPMET</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Commercial_Model__c-NE__Layout Commercial Model</layout>
+        <layout>Case-PROC_Recall</layout>
+        <recordType>Case.PROC_RECALL</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Chronology__c-NE__Layout Chronology</layout>
+        <layout>Case-PROC_InvoiceCancellation</layout>
+        <recordType>Case.PROC_REFUND_GOV_TAX</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Chronology_Promotion__c-NE__Layout Chronology Promotion Item</layout>
+        <layout>Case-PROC_ReturnDevice</layout>
+        <recordType>Case.PROC_RETURN_DEVICE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__ChronologyModel__c-NE__Layout Chronology Model</layout>
+        <layout>Case-PROC_SddRevocation</layout>
+        <recordType>Case.PROC_SDDREVOCATION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Changeset__c-NE__Changeset Layout</layout>
+        <layout>Case-PROC_Signal</layout>
+        <recordType>Case.PROC_SIGNAL</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Catalog__c-NE__Layout Catalog</layout>
+        <layout>Case-PROC_Solicit</layout>
+        <recordType>Case.PROC_SOLICIT</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Catalog_Item__c-NE__Layout Catalog Item Standard</layout>
+        <layout>Case-PROC_Takeover</layout>
+        <recordType>Case.PROC_TAKEOVER</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Catalog_Item_Discount__c-NE__Layout Catalog Item Discount</layout>
+        <layout>Case-PROC_TaxFacilityDiplomatic</layout>
+        <recordType>Case.PROC_TAXFACILITYDIPLOMATIC</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Catalog_Header__c-NE__Catalog header Layout</layout>
+        <layout>Case-PROC_TaxFacilityOthers</layout>
+        <recordType>Case.PROC_TAXFACILITYOTHERS</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Catalog_Category__c-NE__Layout Catalog Category</layout>
+        <layout>Case-PROC_ChurnPrevention</layout>
+        <recordType>Case.PROC_TECHCHURNPREVENTION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__CatalogMessage__c-NE__Catalog Message Layout</layout>
+        <layout>Case-PROC_Tech_GestioneAssistenza</layout>
+        <recordType>Case.PROC_TECH_ASSISTANCE_MANAGEMENT</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Case_Process__c-NE__Business Process Layout</layout>
+        <layout>Case-PROC_Tech_Generic</layout>
+        <recordType>Case.PROC_TECH_GENERIC</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Business_Process__c-NE__Business Process Layout</layout>
+        <layout>Case-PROC_Tech_Blocco_Sblocco_IMEI</layout>
+        <recordType>Case.PROC_TECH_LOCK_DEVICE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Bit2Win_Session__c-NE__Bit2Win Session Layout</layout>
+        <layout>Case-PROC_Tech_Generic</layout>
+        <recordType>Case.PROC_TECH_RETRAINING</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Billing_Profile__c-NE__Layout Billing Profile</layout>
+        <layout>Case-PROC_Tech_Generic</layout>
+        <recordType>Case.PROC_TECH_RETRAINING_MONITORING</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Asset__c-NE__Layout Asset</layout>
+        <layout>Case-PROC_Tech_Blocco_Sblocco_IMEI</layout>
+        <recordType>Case.PROC_TECH_UNLOCK_DEVICE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Asset_Account_Contact__c-NE__Asset Account Contact Layout</layout>
+        <layout>Case-PROC_ULL_GPON_MIGRATION</layout>
+        <recordType>Case.PROC_ULL_GPON_MIGRATION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__AssetItem__c-NE__Layout Asset Item</layout>
+        <layout>Case-PROC_ULL_VULA_MIGRATION</layout>
+        <recordType>Case.PROC_ULL_VULA_MIGRATION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__AssetItemAttribute__c-NE__AssetItemAttribute Layout</layout>
+        <layout>Case-PROC_VULA_GPON_MIGRATION</layout>
+        <recordType>Case.PROC_VULA_GPON_MIGRATION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__AssetAttribute__c-NE__Layout Asset Attribute</layout>
+        <layout>Case-ROC_Generic_COPS</layout>
+        <recordType>Case.ROC</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Mfp_Technical_Detail_Visibility__mdt-Mfp Technical Detail Visibility Layout</layout>
+        <layout>Case-ROC_Generic_COPS</layout>
+        <recordType>Case.ROC_CHURN_RETENTION_PRE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>MfpVisibleCaseDescriptionPerOrigin__mdt-MfpVisibleCaseDescriptionPerOrigin Layout</layout>
+        <layout>Case-ROC Social %28COPS%29</layout>
+        <recordType>Case.ROC_SOCIAL</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>MfpDebugSetting__mdt-Mfp Debug Setting Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>MfpCommunityClosedCaseVisibility__mdt-Mfp Community Closed Case Visibility Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>MfpCommunityCaseVisibility__mdt-Mfp Community Visible Case Layout</layout>
+        <layout>Case-ROC_Technical_COPS</layout>
+        <recordType>Case.ROC_TECH</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseClose-Close Case Layout</layout>
@@ -51380,10 +51736,12 @@
         <layout>CheckDataRules__c-CheckData Rules Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>MfpCaseStatusTranscoding__mdt-Mfp Case Status Transcoding Layout</layout>
+        <layout>CheckDataRules__c-CheckData Rules Layout</layout>
+        <recordType>CheckDataRules__c.Simple_Rule</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>MfpCaseHiddenOrigin__mdt-Mfp Case Hidden Origin Layout</layout>
+        <layout>CheckDataRules__c-CheckData Rules Layout</layout>
+        <recordType>CheckDataRules__c.Timing_and_Notification</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CheckData__c-CheckData Layout</layout>
@@ -51404,10 +51762,12 @@
         <layout>CommercialProfile__c-Commercial Profile Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>MfpAttachmentSetting__mdt-MfpAttachmentSetting Layout</layout>
+        <layout>CommercialProfile__c-Commercial Profile Layout</layout>
+        <recordType>CommercialProfile__c.Channel</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Matrix_Bersani_Cost_Penalty__mdt-Matrice Penali Costo Bersani Layout</layout>
+        <layout>CommercialProfile__c-Commercial Profile Layout</layout>
+        <recordType>CommercialProfile__c.PointOfSale</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CommunityMemberLayout-Community Member Layout</layout>
@@ -51422,10 +51782,12 @@
         <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ManagedBatchControlItem__c-ManagedBatchControlItem Layout</layout>
+        <layout>Contact-Contact Layout</layout>
+        <recordType>Contact.Consumer</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ManagedBatchChunkTracking__c-ManagedBatchChunkTracking Layout</layout>
+        <layout>Contact-Contact Layout</layout>
+        <recordType>Contact.Enterprise</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContactMaxOccurencies__mdt-ContactMaxOccurencies Layout</layout>
@@ -51446,7 +51808,8 @@
         <layout>Contract-Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Macro-Macro Layout</layout>
+        <layout>Contract-Contract Layout</layout>
+        <recordType>Contract.Enterprise</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContractLineItem-Contract Line Item Layout</layout>
@@ -51509,10 +51872,12 @@
         <layout>Domanda__c-Domanda Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Location-Location Layout</layout>
+        <layout>Domanda__c-Layout domanda aperta</layout>
+        <recordType>Domanda__c.A_risposta_aperta</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>LiveChatVisitor-Live Chat Visitor Layout</layout>
+        <layout>Domanda__c-Layout domanda a risposta multipla</layout>
+        <recordType>Domanda__c.A_risposta_multipla</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
@@ -51530,19 +51895,23 @@
         <layout>Esame__c-Verifica Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>LiveChatTranscriptWaiting-Live Chat Transcript %28Waiting%29 Layout</layout>
+        <layout>Esame__c-Verifica Layout</layout>
+        <recordType>Esame__c.Finale</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>LiveChatTranscriptEvent-Live Chat Transcript Event Layout</layout>
+        <layout>Esame__c-Verifica Layout</layout>
+        <recordType>Esame__c.Iniziale</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>LiveChatTranscriptActive-Live Chat Transcript %28In Progress%29 Layout</layout>
+        <layout>Esame__c-Verifica Layout</layout>
+        <recordType>Esame__c.Prova_Pratica</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Event-Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>LiveChatTranscript-Live Chat Transcript Layout</layout>
+        <layout>Event-Event Layout</layout>
+        <recordType>Event.Enterprise1</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ExpDwhMobMsisdnDetailsVs__x-ExpDwhMobMsisdnDetailsVs Layout</layout>
@@ -51557,7 +51926,7 @@
         <layout>ExpEsbCtpNetPhoneVs__x-ExpEsbCtpNetPhoneVs Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>LiveAgentSession-Live Agent Session Layout</layout>
+        <layout>ExpEsbCtpNetServiceVs__x-ExpEsbCtpNetServiceVs Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ExpEsbCtpOrderVs__x-ExpEsbCtpOrderVs Layout</layout>
@@ -51614,13 +51983,16 @@
         <layout>FW_MaterialDetail__c-Channel Material Detail</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ListEmail-Layout Email elenco</layout>
+        <layout>FW_MaterialDetail__c-Channel Material Detail</layout>
+        <recordType>FW_MaterialDetail__c.FW_AlternativeMeasureUnit</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Lead-Lead Layout</layout>
+        <layout>FW_MaterialDetail__c-Channel Material Detail</layout>
+        <recordType>FW_MaterialDetail__c.FW_DistributionChannel</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ItalianMunicipality__c-Italian Municipality Layout</layout>
+        <layout>FW_MaterialDetail__c-Channel Material Detail</layout>
+        <recordType>FW_MaterialDetail__c.FW_MaterialStock</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>FW_Private_Dashboard__c-FW_Private_Dashboard Layout</layout>
@@ -51674,22 +52046,21 @@
         <layout>Interaction__c-Interaction Layout - Chiuso</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Invoice__c-Invoice Layout</layout>
+        <layout>Interaction__c-Interaction Layout - Chiuso</layout>
+        <recordType>Interaction__c.Chiuso</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Interaction__c-Interaction Layout - Chiuso</layout>
         <recordType>Interaction__c.Nuovo</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>tecnologiaEscludiCLDB__mdt-tecnologiaEscludiCLDB Layout</layout>
+        <layout>Invoice__c-Invoice Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>FW_MaterialDetail__c-Channel Material Detail</layout>
-        <recordType>FW_MaterialDetail__c.FW_MaterialStock</recordType>
+        <layout>ItalianMunicipality__c-Italian Municipality Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>FW_MaterialDetail__c-Channel Material Detail</layout>
-        <recordType>FW_MaterialDetail__c.FW_DistributionChannel</recordType>
+        <layout>Lead-Lead Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
@@ -51704,148 +52075,114 @@
         <recordType>Lead.ProspectShp</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>FW_MaterialDetail__c-Channel Material Detail</layout>
-        <recordType>FW_MaterialDetail__c.FW_AlternativeMeasureUnit</recordType>
+        <layout>ListEmail-Layout Email elenco</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.ConsumerPartner</recordType>
+        <layout>LiveAgentSession-Live Agent Session Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Event-Event Layout</layout>
-        <recordType>Event.Enterprise1</recordType>
+        <layout>LiveChatTranscript-Live Chat Transcript Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Esame__c-Verifica Layout</layout>
-        <recordType>Esame__c.Prova_Pratica</recordType>
+        <layout>LiveChatTranscriptActive-Live Chat Transcript %28In Progress%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Esame__c-Verifica Layout</layout>
-        <recordType>Esame__c.Iniziale</recordType>
+        <layout>LiveChatTranscriptEvent-Live Chat Transcript Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Esame__c-Verifica Layout</layout>
-        <recordType>Esame__c.Finale</recordType>
+        <layout>LiveChatTranscriptWaiting-Live Chat Transcript %28Waiting%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Domanda__c-Layout domanda aperta</layout>
-        <recordType>Domanda__c.A_risposta_aperta</recordType>
+        <layout>LiveChatVisitor-Live Chat Visitor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Domanda__c-Layout domanda a risposta multipla</layout>
-        <recordType>Domanda__c.A_risposta_multipla</recordType>
+        <layout>Location-Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contract-Contract Layout</layout>
-        <recordType>Contract.Enterprise</recordType>
+        <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-Contact Layout</layout>
-        <recordType>Contact.Enterprise</recordType>
+        <layout>ManagedBatchChunkTracking__c-ManagedBatchChunkTracking Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-Contact Layout</layout>
-        <recordType>Contact.Consumer</recordType>
+        <layout>ManagedBatchControlItem__c-ManagedBatchControlItem Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CommercialProfile__c-Commercial Profile Layout</layout>
-        <recordType>CommercialProfile__c.PointOfSale</recordType>
+        <layout>Matrix_Bersani_Cost_Penalty__mdt-Matrice Penali Costo Bersani Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CommercialProfile__c-Commercial Profile Layout</layout>
-        <recordType>CommercialProfile__c.Channel</recordType>
+        <layout>MfpAttachmentSetting__mdt-MfpAttachmentSetting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CheckDataRules__c-CheckData Rules Layout</layout>
-        <recordType>CheckDataRules__c.Timing_and_Notification</recordType>
+        <layout>MfpCaseHiddenOrigin__mdt-Mfp Case Hidden Origin Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CheckDataRules__c-CheckData Rules Layout</layout>
-        <recordType>CheckDataRules__c.Simple_Rule</recordType>
+        <layout>MfpCaseStatusTranscoding__mdt-Mfp Case Status Transcoding Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-ROC_Technical_COPS</layout>
-        <recordType>Case.ROC_TECH</recordType>
+        <layout>MfpCommunityCaseVisibility__mdt-Mfp Community Visible Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-ROC_Generic_COPS</layout>
-        <recordType>Case.ROC</recordType>
+        <layout>MfpCommunityClosedCaseVisibility__mdt-Mfp Community Closed Case Visibility Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-ROC Social %28COPS%29</layout>
-        <recordType>Case.ROC_SOCIAL</recordType>
+        <layout>MfpDebugSetting__mdt-Mfp Debug Setting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_mvno_migration</layout>
-        <recordType>Case.PROC_MVNO_MIGRATION</recordType>
+        <layout>MfpVisibleCaseDescriptionPerOrigin__mdt-MfpVisibleCaseDescriptionPerOrigin Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_abuse_PEGA</layout>
-        <recordType>Case.PROC_ABUSE_VIRUS</recordType>
+        <layout>Mfp_Technical_Detail_Visibility__mdt-Mfp Technical Detail Visibility Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_abuse_PEGA</layout>
-        <recordType>Case.PROC_ABUSE_SPAM</recordType>
+        <layout>NE__AssetAttribute__c-NE__Layout Asset Attribute</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_abuse_PEGA</layout>
-        <recordType>Case.PROC_ABUSE_PHISHING</recordType>
+        <layout>NE__AssetItemAttribute__c-NE__AssetItemAttribute Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_abuse_PEGA</layout>
-        <recordType>Case.PROC_ABUSE_IP</recordType>
+        <layout>NE__AssetItem__c-NE__Layout Asset Item</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_VULA_GPON_MIGRATION</layout>
-        <recordType>Case.PROC_VULA_GPON_MIGRATION</recordType>
+        <layout>NE__Asset_Account_Contact__c-NE__Asset Account Contact Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ULL_VULA_MIGRATION</layout>
-        <recordType>Case.PROC_ULL_VULA_MIGRATION</recordType>
+        <layout>NE__Asset__c-NE__Layout Asset</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NE__Billing_Profile__c-NE__Layout Billing Profile</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NE__Billing_Profile__c-Carta di Credito</layout>
         <recordType>NE__Billing_Profile__c.Carta_di_Credito</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ULL_GPON_MIGRATION</layout>
-        <recordType>Case.PROC_ULL_GPON_MIGRATION</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>NE__Billing_Profile__c-Paypal</layout>
         <recordType>NE__Billing_Profile__c.Paypal</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Tech_GestioneAssistenza</layout>
-        <recordType>Case.PROC_TECH_ASSISTANCE_MANAGEMENT</recordType>
+        <layout>NE__Bit2Win_Session__c-NE__Bit2Win Session Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Tech_Generic</layout>
-        <recordType>Case.PROC_TECH_RETRAINING_MONITORING</recordType>
+        <layout>NE__Business_Process__c-NE__Business Process Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Tech_Generic</layout>
-        <recordType>Case.PROC_TECH_RETRAINING</recordType>
+        <layout>NE__Case_Process__c-NE__Business Process Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Tech_Generic</layout>
-        <recordType>Case.PROC_TECH_GENERIC</recordType>
+        <layout>NE__CatalogMessage__c-NE__Catalog Message Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Tech_Blocco_Sblocco_IMEI</layout>
-        <recordType>Case.PROC_TECH_UNLOCK_DEVICE</recordType>
+        <layout>NE__Catalog_Category__c-NE__Layout Catalog Category</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Tech_Blocco_Sblocco_IMEI</layout>
-        <recordType>Case.PROC_TECH_LOCK_DEVICE</recordType>
+        <layout>NE__Catalog_Header__c-NE__Catalog header Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_TaxFacilityOthers</layout>
-        <recordType>Case.PROC_TAXFACILITYOTHERS</recordType>
+        <layout>NE__Catalog_Item_Discount__c-NE__Layout Catalog Item Discount</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_TaxFacilityDiplomatic</layout>
-        <recordType>Case.PROC_TAXFACILITYDIPLOMATIC</recordType>
+        <layout>NE__Catalog_Item__c-NE__Layout Catalog Item Standard</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NE__Catalog_Item__c-NE__Layout Catalog Item Standard</layout>
@@ -51908,48 +52245,40 @@
         <recordType>NE__Catalog_Item__c.Recurring_Charge</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Takeover</layout>
-        <recordType>Case.PROC_TAKEOVER</recordType>
+        <layout>NE__Catalog__c-NE__Layout Catalog</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Solicit</layout>
-        <recordType>Case.PROC_SOLICIT</recordType>
+        <layout>NE__Changeset__c-NE__Changeset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Signal</layout>
-        <recordType>Case.PROC_SIGNAL</recordType>
+        <layout>NE__ChronologyModel__c-NE__Layout Chronology Model</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_SddRevocation</layout>
-        <recordType>Case.PROC_SDDREVOCATION</recordType>
+        <layout>NE__Chronology_Promotion__c-NE__Layout Chronology Promotion Item</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ReturnDevice</layout>
-        <recordType>Case.PROC_RETURN_DEVICE</recordType>
+        <layout>NE__Chronology__c-NE__Layout Chronology</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Recall</layout>
-        <recordType>Case.PROC_RECALL</recordType>
+        <layout>NE__Commercial_Model__c-NE__Layout Commercial Model</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_PersDataChgShippMet</layout>
-        <recordType>Case.PROC_PERSDATACHGSHIPPMET</recordType>
+        <layout>NE__Contract_Account_Association__c-NE__Contract Account Association Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Parkhandling</layout>
-        <recordType>Case.PROC_ORDER_PARKHANDLING</recordType>
+        <layout>NE__Contract_Header__c-NE__Contract Header Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_OfferPersonalization</layout>
-        <recordType>Case.PROC_OFFER_PERSONALIZATION</recordType>
+        <layout>NE__Contract_Line_Item__c-NE__Contract Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ORDER_REJECTED_MNP</layout>
-        <recordType>Case.PROC_ORDER_REJECTED_MNP</recordType>
+        <layout>NE__Contract__c-NE__Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ORDER_REJECTED_MNP</layout>
-        <recordType>Case.PROC_ORDER_REJECTED</recordType>
+        <layout>NE__Document_Component_Header__c-NE__Layout Document Component Header</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NE__Document_Component__c-NE__Document Component Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NE__Document_Component__c-NE__DCAuthoring</layout>
@@ -51968,24 +52297,21 @@
         <recordType>NE__Document_Component__c.NE__Published</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Migration_Technology</layout>
-        <recordType>Case.PROC_MIGRATION_TECHNOLOGY</recordType>
+        <layout>NE__DocumentationCharacterist__c-NE__Layout Documentation Characteristic</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_InvoiceCancellation</layout>
-        <recordType>Case.PROC_REFUND_GOV_TAX</recordType>
+        <layout>NE__DynamicInventory__c-NE__Layout Dynamic Inventory</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Housemove</layout>
-        <recordType>Case.PROC_HOUSEMOVE</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Case-PROC_GDPRPortability</layout>
-        <recordType>Case.PROC_GDPR_PORTABILITY</recordType>
+        <layout>NE__DynamicPropertyDefinition__c-NE__Layout DynamicPropertyDefinition</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NE__DynamicPropertyDefinition__c-NE__Layout DynamicPropertyDefinition</layout>
         <recordType>NE__DynamicPropertyDefinition__c.NE__Dynamic_Lookup</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NE__DynamicPropertyDefinition__c-NE__Layout Enumerated DPD</layout>
+        <recordType>NE__DynamicPropertyDefinition__c.NE__Enumerated</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NE__DynamicPropertyDefinition__c-NE__Layout DynamicPropertyDefinition</layout>
@@ -51996,24 +52322,19 @@
         <recordType>NE__DynamicPropertyDefinition__c.NE__Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__DynamicPropertyDefinition__c-NE__Layout Enumerated DPD</layout>
-        <recordType>NE__DynamicPropertyDefinition__c.NE__Enumerated</recordType>
+        <layout>NE__Dynamic_Lookup__c-NE__Dynamic Lookup Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Fiber_Migration</layout>
-        <recordType>Case.PROC_FIBER_Migration</recordType>
+        <layout>NE__Export_Request__c-NE__Export Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_FTTS_FIBER_MIGRATION</layout>
-        <recordType>Case.PROC_FTTS_FIBER_MIGRATION</recordType>
+        <layout>NE__Family__c-NE__Layout Family</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_DEPROVISIONING_USIM</layout>
-        <recordType>Case.PROC_DEPROVISIONING_USIM</recordType>
+        <layout>NE__Import_Request__c-NE__Import Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_CreditRefundNDCInvoice</layout>
-        <recordType>Case.PROC_CREDITREFUNDNDCINVOICE</recordType>
+        <layout>NE__IntegrationAdministration__c-NE__Layout Integration Administration</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NE__IntegrationAdministration__c-NE__Layout Additional Summary Configuration</layout>
@@ -52032,64 +52353,47 @@
         <recordType>NE__IntegrationAdministration__c.NE__Fulfillment_Administration</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_CreditRefundNDCCompensation</layout>
-        <recordType>Case.PROC_CREDITREFUNDNDCCOMPENSATION</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>NE__IntegrationAdministration__c-NE__Layout Integration Administration</layout>
         <recordType>NE__IntegrationAdministration__c.NE__Integration_Administration</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_CreditRefundMobileCharge</layout>
-        <recordType>Case.PROC_CREDITREFUNDMOBILECHARGE</recordType>
+        <layout>NE__Item_Header__c-NE__Item Header Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_CreditRefundCheck</layout>
-        <recordType>Case.PROC_CREDITREFUNDCHECK</recordType>
+        <layout>NE__Log__c-NE__Log Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_CreditRefundAdj</layout>
-        <recordType>Case.PROC_CREDIT_REFUND_ADJ_PRE</recordType>
+        <layout>NE__Lookup_Map_Value__c-NE__Lookup Map Value Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_CreditRefundAdj</layout>
-        <recordType>Case.PROC_CREDITREFUNDADJ</recordType>
+        <layout>NE__Lookup_Map__c-NE__Lookup Map Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_CreditRefundADJCompensation</layout>
-        <recordType>Case.PROC_CREDIT_REFUND_ADJ_COMPENSATION</recordType>
+        <layout>NE__Lov__c-NE__Layout Lov</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ContractTerminationMobile</layout>
-        <recordType>Case.PROC_CONTRACT_TERMINATION_MOBILE</recordType>
+        <layout>NE__MapObjectItemAttribute__c-NE__MapObjectItemAttribute Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ContractTermination</layout>
-        <recordType>Case.PROC_CONTRACT_TERMINATION_RICIRCOLO</recordType>
+        <layout>NE__MapObjectItem__c-NE__Layout Map Object Item</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ContractTermination</layout>
-        <recordType>Case.PROC_CONTRACT_TERMINATION</recordType>
+        <layout>NE__MapObject__c-NE__Layout Map Object</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ContractDeviceWithdrawal</layout>
-        <recordType>Case.PROC_CONTRACT_DEVICE_WITHDRAWAL_MOBILE</recordType>
+        <layout>NE__Map__c-NE__Layout Map</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ContractDeviceWithdrawal</layout>
-        <recordType>Case.PROC_CONTRACTDEVICEWITHDRAWAL</recordType>
+        <layout>NE__Matrix_Adjustment_Row__c-NE__Matrix Adjustment Row Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ContractClose</layout>
-        <recordType>Case.PROC_CONTRACTCLOSE</recordType>
+        <layout>NE__Matrix_Adjustment__c-NE__Matrix Adjustment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ContactElectronicInvoice</layout>
-        <recordType>Case.PROC_CONTACT_ELECTRONIC_INVOICE</recordType>
+        <layout>NE__Matrix_Parameter_Row__c-NE__Matrix Parameter Row Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ContactCustomer</layout>
-        <recordType>Case.PROC_CONTACT_TECH_ASSISTANCE_MANAGEMENT</recordType>
+        <layout>NE__Matrix_Parameter__c-NE__Matrix Parameter Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NE__Matrix_Parameter__c-NE__Matrix Parameter Layout</layout>
@@ -52100,16 +52404,13 @@
         <recordType>NE__Matrix_Parameter__c.NE__PRODUCT_CONFIGURATION</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ContactCustomer</layout>
-        <recordType>Case.PROC_CONTACTCUSTOMER</recordType>
+        <layout>NE__Measurement__c-NE__Measurement Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Claim</layout>
-        <recordType>Case.PROC_CLAIM</recordType>
+        <layout>NE__Multiplier__c-NE__Multiplier Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChurnRetentionPre</layout>
-        <recordType>Case.PROC_CHURN_RETENTION_PRE</recordType>
+        <layout>NE__OrderItem__c-Layout Order Item - CC Pre</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NE__OrderItem__c-Layout Order Item - CC Pre</layout>
@@ -52144,6 +52445,10 @@
         <recordType>NE__OrderItem__c.NE__Service</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NE__OrderItem__c-NE__Layout Order Item</layout>
+        <recordType>NE__OrderItem__c.NE__StanStandarddard</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NE__OrderItem__c-Layout Order Item - CC Pre</layout>
         <recordType>NE__OrderItem__c.NE__Tariff_Plan</recordType>
     </layoutAssignments>
@@ -52156,44 +52461,32 @@
         <recordType>NE__OrderItem__c.Option</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__OrderItem__c-Layout Order Item - CC Pre</layout>
-        <recordType>NE__OrderItem__c.Recurring_Charge</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>NE__OrderItem__c-NE__Layout Order Item</layout>
-        <recordType>NE__OrderItem__c.NE__StanStandarddard</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>NE__OrderItem__c-NE__Layout Order Item</layout>
         <recordType>NE__OrderItem__c.Plafond</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChurnPrevention</layout>
-        <recordType>Case.PROC_TECHCHURNPREVENTION</recordType>
+        <layout>NE__OrderItem__c-Layout Order Item - CC Pre</layout>
+        <recordType>NE__OrderItem__c.Recurring_Charge</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChurnPrevention</layout>
-        <recordType>Case.PROC_CHURNPREVENTION</recordType>
+        <layout>NE__Order_Account_Contact__c-NE__Layout Order Account Contact</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_Change_Next</layout>
-        <recordType>Case.PROC_Change_Next</recordType>
+        <layout>NE__Order_Header__c-NE__Order Header Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NE__Order_Item_Attribute__c-NE__Layout Order Item Attribute</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NE__Order__c-Layout Quote - CRM-Pre-Annullamento</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NE__Order__c-Bit2Shop__Layout One Shot Order</layout>
         <recordType>NE__Order__c.Bit2Shop__One_Shot_Order</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Order__c-Layout Order - CRM-Pre</layout>
-        <recordType>NE__Order__c.NE__Order</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>NE__Order__c-Layout Quote - CRM-Pre</layout>
-        <recordType>NE__Order__c.NE__Quote</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Case-PROC_ChangeVAT</layout>
-        <recordType>Case.PROC_CHANGEVAT</recordType>
+        <layout>NE__Order__c-NE__Layout Order</layout>
+        <recordType>NE__Order__c.Bit2Shop__Stock_Order</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NE__Order__c-NE__Layout Asset</layout>
@@ -52204,32 +52497,32 @@
         <recordType>NE__Order__c.NE__Opty</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Interaction__c-Interaction Layout - Chiuso</layout>
-        <recordType>Interaction__c.Chiuso</recordType>
+        <layout>NE__Order__c-Layout Order - CRM-Pre</layout>
+        <recordType>NE__Order__c.NE__Order</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NE__Order__c-NE__Layout Order</layout>
         <recordType>NE__Order__c.NE__Pending</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NE__Order__c-Layout Quote - CRM-Pre</layout>
+        <recordType>NE__Order__c.NE__Quote</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NE__Order__c-NE__Layout Order</layout>
         <recordType>NE__Order__c.NE__Submitted</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChangeSubscriberList</layout>
-        <recordType>Case.PROC_CHANGESUBSCRIBERLIST</recordType>
+        <layout>NE__ProductFamilyProperty__c-NE__Layout ProductFamilyProperty</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChangePersonalData</layout>
-        <recordType>Case.PROC_CHANGEPERSONALDATA</recordType>
+        <layout>NE__ProductFamily__c-NE__Layout ProductFamily</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChangeOffer</layout>
-        <recordType>Case.PROC_CHANGE_OFFER</recordType>
+        <layout>NE__Product_Wave__c-NE__Product Wave Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChangeModem</layout>
-        <recordType>Case.PROC_Change_Modem</recordType>
+        <layout>NE__Product__c-NE__Layout Product</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NE__Product__c-NE__Layout Product</layout>
@@ -52288,76 +52581,64 @@
         <recordType>NE__Product__c.RecurringCharge</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChangeMOP</layout>
-        <recordType>Case.PROC_CHANGEMOP</recordType>
+        <layout>NE__Promotion_Item__c-NE__Layout Promotion Item</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChangeInvoiceShippAddr</layout>
-        <recordType>Case.PROC_CHANGEINVOICESHIPPADDR</recordType>
+        <layout>NE__Promotion__c-NE__Layout Promotion</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChangeFiscalCode</layout>
-        <recordType>Case.PROC_CHANGEFISCALCODE</recordType>
+        <layout>NE__PropertyDomain__c-NE__Layout PropertyDomain</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChangeEmailShpAdd</layout>
-        <recordType>Case.PROC_CHANGEEMAILSHPADD</recordType>
+        <layout>NE__Quote__c-NE__Layout Quote</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChangeElectronicInvoice</layout>
-        <recordType>Case.PROC_CHANGEELECTRONICINVOICE</recordType>
+        <layout>NE__Rule_Objects__c-NE__Rule_Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChangeContacts</layout>
-        <recordType>Case.PROC_CHANGECONTACTS</recordType>
+        <layout>NE__Rule__c-NE__Rule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ChangeConsents</layout>
-        <recordType>Case.PROC_CHANGECONSENTS</recordType>
+        <layout>NE__Service_Point__c-Service Point Layout %28Admin%29</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-INC</layout>
-        <recordType>Case.INC</recordType>
+        <layout>NE__Task_Process__c-NE__Task Process Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-ROC_Generic_COPS</layout>
-        <recordType>Case.ROC_CHURN_RETENTION_PRE</recordType>
+        <layout>NE__Tax_Model_Version__c-NE__Tax Model Version Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-        <recordType>Case.PROC_MODIFYCOMBSERVICES</recordType>
+        <layout>NE__Tax_Model__c-NE__Tax Model Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-        <recordType>Case.PROC_INVOICE_CANCELLATION</recordType>
+        <layout>NE__Threshold_Model__c-NE__Threshold Model Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-        <recordType>Case.PROC_CREDIT_REFUND_ADJ_ERROR_CONSUMI</recordType>
+        <layout>NE__Threshold__c-NE__Threshold Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-        <recordType>Case.PROC_CREDIT_REFUND_ADJ_ERROR_CANONI</recordType>
+        <layout>NE__Translation__c-NE__Translation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-PROC_ContactCheckDataLive</layout>
-        <recordType>Case.PROC_CONTACT_CHECKDATA_LIVE</recordType>
+        <layout>NE__Unit_Of_Measure__c-NE__Unit Of Measure Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-        <recordType>Case.PROC_CONTACTNATURALDISASTER</recordType>
+        <layout>NPA__c-NPA Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-        <recordType>Case.PROC_CONTACTDOCUMENTAL</recordType>
+        <layout>Notice__c-Notice Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-        <recordType>Case.PROC_CLOSEACCOUNT</recordType>
+        <layout>NotifyDocCOM__mdt-NotifyDocCOM Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-        <recordType>Case.PROC_ABUSEUNREACHABLE</recordType>
+        <layout>NumberLimitAdoptionCOMWEB__mdt-Number Limit Adoption COM WEB Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OSSChannel_Configuration__c-OSSChannel Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
@@ -52376,48 +52657,37 @@
         <recordType>Opportunity.EnterpriseUpsell</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-        <recordType>Case.PROC_ABUSEMAILBLACKLIST</recordType>
+        <layout>OpportunityContactRole-Layout Ruolo referente opportunit‡</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__StockOrder__c-Bit2Shop__Transfer Order Layout</layout>
-        <recordType>Bit2Shop__StockOrder__c.Bit2Shop__Transfer</recordType>
+        <layout>OpportunityLineItem-Opportunity Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__StockOrder__c-Bit2Shop__Transfer Order Layout</layout>
-        <recordType>Bit2Shop__StockOrder__c.Bit2Shop__Return</recordType>
+        <layout>OpportunityTeamMember-Opportunity Team Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__StockOrder__c-Bit2Shop__Not Flagship Supply Order Layout</layout>
-        <recordType>Bit2Shop__StockOrder__c.Bit2Shop__Supply</recordType>
+        <layout>Order-Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__StockOrder__c-Bit2Shop__Flagship Purchase Order Layout</layout>
-        <recordType>Bit2Shop__StockOrder__c.Bit2Shop__Purchase</recordType>
+        <layout>OrderActionSetting__mdt-Layout Order Submit Setting</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__StockHistory__c-Bit2Shop__Stock History Layout</layout>
-        <recordType>Bit2Shop__StockHistory__c.Bit2Shop__Current</recordType>
+        <layout>OrderAnnulment__c-Componente in Annullamento Definitivo Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__StockHistory__c-Bit2Shop__Closed Stock History Layout</layout>
-        <recordType>Bit2Shop__StockHistory__c.Bit2Shop__Closed</recordType>
+        <layout>OrderItem-Order Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__Shipment_Line_Item__c-Bit2Shop__Shipment Line Item Serial Layout</layout>
-        <recordType>Bit2Shop__Shipment_Line_Item__c.Bit2Shop__Shipment_Line_Item_Serial</recordType>
+        <layout>OrderRecoveryContainer__c-Order Recovery Container Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__Shipment_Line_Item__c-Bit2Shop__Shipment Line Item Layout</layout>
-        <recordType>Bit2Shop__Shipment_Line_Item__c.Bit2Shop__Shipment_Line_Item_Product</recordType>
+        <layout>OrderRecovery__c-Order Recovery Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__Serial_Stock_History__c-Bit2Shop__Serial Stock History Layout</layout>
-        <recordType>Bit2Shop__Serial_Stock_History__c.Bit2Shop__Current</recordType>
+        <layout>OrderRequestAnnulment__c-OrderRequestAnnulment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__Serial_Stock_History__c-Bit2Shop__Closed Serial Stock History Layout</layout>
-        <recordType>Bit2Shop__Serial_Stock_History__c.Bit2Shop__Closed</recordType>
+        <layout>Partecipazione__c-Layout Partecipazione - Esame Effettuato</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Partecipazione__c-Layout Partecipazione - Esame Effettuato</layout>
@@ -52452,36 +52722,28 @@
         <recordType>Partecipazione__c.Utente_Promosso_con_Riserva</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__Product_Stock__c-Bit2Shop__Product Stock Layout</layout>
-        <recordType>Bit2Shop__Product_Stock__c.Bit2Shop__Current</recordType>
+        <layout>PartitaIVA_PA__c-PartitaIVA_PA Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__Product_Stock__c-Bit2Shop__Product Stock Layout</layout>
-        <recordType>Bit2Shop__Product_Stock__c.Bit2Shop__Closed</recordType>
+        <layout>PartnershipEventMatrix__mdt-PartnershipEventMatrix Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__Dealer__c-Bit2Shop__Not Flagship Layout Point of Sales</layout>
-        <recordType>Bit2Shop__Dealer__c.Bit2Shop__Point_of_sales</recordType>
+        <layout>Partnership__c-Partnership Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Shop__Dealer__c-Bit2Shop__Not Flagship Layout Division</layout>
-        <recordType>Bit2Shop__Dealer__c.Bit2Shop__Division</recordType>
+        <layout>Pda_Signature_Setting__mdt-Pda Signature Setting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype__c-Bit2Archetypes__Archetype Layout</layout>
-        <recordType>Bit2Archetypes__Archetype__c.Bit2Archetypes__Rule</recordType>
+        <layout>PegaRocManagement__mdt-PegaRocManagement Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype__c-Bit2Archetypes__Archetype Layout</layout>
-        <recordType>Bit2Archetypes__Archetype__c.Bit2Archetypes__ChangeOffer</recordType>
+        <layout>PermessiCambioSim__c-Permesso Cambio Sim Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Condition__c-Bit2Archetypes__Archetype Condition Layout</layout>
-        <recordType>Bit2Archetypes__Archetype_Condition__c.Bit2Archetypes__Rule</recordType>
+        <layout>PinotNotice__mdt-PinotNotice Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Condition__c-Bit2Archetypes__Archetype Condition Layout</layout>
-        <recordType>Bit2Archetypes__Archetype_Condition__c.Bit2Archetypes__ChangeOffer</recordType>
+        <layout>Portfolio__c-Portfolio Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Portfolio__c-Portfolio Layout</layout>
@@ -52496,64 +52758,49 @@
         <recordType>Portfolio__c.Wired</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Object search</layout>
-        <recordType>Bit2Archetypes__Archetype_Condition_Parameter__c.Bit2Archetypes__Object_search</recordType>
+        <layout>PreArticle__kav-Pre Article Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Object field</layout>
-        <recordType>Bit2Archetypes__Archetype_Condition_Parameter__c.Bit2Archetypes__Object_field</recordType>
+        <layout>Pricebook2-Price Book Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Lov value</layout>
-        <recordType>Bit2Archetypes__Archetype_Condition_Parameter__c.Bit2Archetypes__Lov_value</recordType>
+        <layout>PricebookEntry-Price Book Entry Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Lookup</layout>
-        <recordType>Bit2Archetypes__Archetype_Condition_Parameter__c.Bit2Archetypes__Lookup</recordType>
+        <layout>ProactiveKOSetting__mdt-Exclude KO Setting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Input value</layout>
-        <recordType>Bit2Archetypes__Archetype_Condition_Parameter__c.Bit2Archetypes__Input_value</recordType>
+        <layout>ProcessRetentionOpeningRules__mdt-Proc Retention Opening Rule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Condition_Parameter__c-Bit2Archetypes__Fixed List</layout>
-        <recordType>Bit2Archetypes__Archetype_Condition_Parameter__c.Bit2Archetypes__Fixed_List</recordType>
+        <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__SET TEXT NODE</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__SET_TEXT_NODE</recordType>
+        <layout>ProductServiceCategory__c-Product Service Category Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__SET ATTRIBUTE</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__SET_ATTRIBUTE</recordType>
+        <layout>ProfileToRoc_Type_Assignment__mdt-ProfileToRoc Type Assignment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__REMOVE NODE</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__REMOVE_NODE</recordType>
+        <layout>ProfitCenter__mdt-Profit Center Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__REMOVE ATTRIBUTE</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__REMOVE_ATTRIBUTE</recordType>
+        <layout>QueueableJobsSetting__mdt-Queueable Jobs Setting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__MULTIPLE SET NODE</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__MULTIPLE_SET_NODE</recordType>
+        <layout>QuickText-Quick Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__MULTIPLE SET ATTRIBUTE</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__MULTIPLE_SET_ATTRIBUTE</recordType>
+        <layout>Quote-Quote Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__CREATE NODE</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__CREATE_NODE</recordType>
+        <layout>QuoteLineItem-Quote Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__COMPLEX SET ATTRIBUTE</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__COMPLEX_SET_ATTRIBUTE</recordType>
+        <layout>ReportsForDownload__c-Report for download Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Step__c-Bit2Archetypes__CLONE NODE</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Step__c.Bit2Archetypes__CLONE_NODE</recordType>
+        <layout>Risposta__c-Risposta Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Risposta__c-Risposta Layout</layout>
@@ -52564,76 +52811,58 @@
         <recordType>Risposta__c.A_risposta_multipla</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Object search</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Parameter__c.Bit2Archetypes__Object_search</recordType>
+        <layout>SData__c-SData Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Object field</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Parameter__c.Bit2Archetypes__Object_field</recordType>
+        <layout>SMSEmailCharacterization__mdt-SMS Email Characterization Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Lov value</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Parameter__c.Bit2Archetypes__Lov_value</recordType>
+        <layout>SalesChannelRemapping__mdt-Sales Channel Remapping Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Lookup</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Parameter__c.Bit2Archetypes__Lookup</recordType>
+        <layout>Scorecard-Scorecard Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Input value</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Parameter__c.Bit2Archetypes__Input_value</recordType>
+        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bit2Archetypes__Archetype_Action_Parameter__c-Bit2Archetypes__Input value</layout>
-        <recordType>Bit2Archetypes__Archetype_Action_Parameter__c.Bit2Archetypes__Fixed_List</recordType>
+        <layout>ScorecardMetric-Scorecard Metric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>BillingAccount__c-Shp - Billing Account Layout</layout>
-        <recordType>BillingAccount__c.Shp</recordType>
+        <layout>Sequence__c-Sequence Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>BillingAccount__c-Residential - BIlling Account Layout</layout>
-        <recordType>BillingAccount__c.Residential</recordType>
+        <layout>ServiceContract-Service Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__Work_Order__c-B2WExtCat__Work Order Layout</layout>
-        <recordType>B2WExtCat__Work_Order__c.B2WExtCat__Standard</recordType>
+        <layout>ServiceLog__c-ServiceLog Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__Work_Order__c-B2WExtCat__Work Order Layout</layout>
-        <recordType>B2WExtCat__Work_Order__c.B2WExtCat__Provisioning</recordType>
+        <layout>SiteAddress__c-Site Address Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__Work_Order__c-B2WExtCat__Work Order Layout</layout>
-        <recordType>B2WExtCat__Work_Order__c.B2WExtCat__Billing</recordType>
+        <layout>Site__c-Site Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
-        <recordType>B2WExtCat__Work_Order_Item__c.B2WExtCat__Standard</recordType>
+        <layout>SocialPersona-Social Persona Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
-        <recordType>B2WExtCat__Work_Order_Item__c.B2WExtCat__Service</recordType>
+        <layout>SocialPost-Social Post Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
-        <recordType>B2WExtCat__Work_Order_Item__c.B2WExtCat__Installation</recordType>
+        <layout>Solution-Solution Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
-        <recordType>B2WExtCat__Work_Order_Item__c.B2WExtCat__Equipment</recordType>
+        <layout>StagingMessage__c-StagingMessage Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
-        <recordType>B2WExtCat__Work_Order_Item__c.B2WExtCat__Check</recordType>
+        <layout>Staging_rejected_order__c-Staging rejected order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__Work_Order_Item__c-B2WExtCat__Work Order Item Layout</layout>
-        <recordType>B2WExtCat__Work_Order_Item__c.B2WExtCat__Approval</recordType>
+        <layout>TabellaRecapiti__c-TabellaRecapiti Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__External_Catalog__c-B2WExtCat__External Catalog Layout</layout>
-        <recordType>B2WExtCat__External_Catalog__c.B2WExtCat__Standard</recordType>
+        <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
@@ -52648,12 +52877,10 @@
         <recordType>Task.PartecipazioneCorso</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__External_Catalog__c-B2WExtCat__External Catalog Layout</layout>
-        <recordType>B2WExtCat__External_Catalog__c.B2WExtCat__Provisioning</recordType>
+        <layout>TbsAutomation__c-Tbs Automation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__External_Catalog__c-B2WExtCat__External Catalog Layout</layout>
-        <recordType>B2WExtCat__External_Catalog__c.B2WExtCat__Billing</recordType>
+        <layout>TeamConfiguration__c-Team Configuration Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TeamConfiguration__c-Team Configuration Layout</layout>
@@ -52664,68 +52891,53 @@
         <recordType>TeamConfiguration__c.OpportunityTeam</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
-        <recordType>B2WExtCat__External_Catalog_Item__c.B2WExtCat__Standard</recordType>
+        <layout>TechnicalArticle__kav-Technical Article Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
-        <recordType>B2WExtCat__External_Catalog_Item__c.B2WExtCat__Service</recordType>
+        <layout>TechnicalGuide__kav-Manuale Tecnico Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
-        <recordType>B2WExtCat__External_Catalog_Item__c.B2WExtCat__Installation</recordType>
+        <layout>TechnicalRocAccess__mdt-Technical Roc Access Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
-        <recordType>B2WExtCat__External_Catalog_Item__c.B2WExtCat__Equipment</recordType>
+        <layout>TechnologyRemapping__mdt-Technology Remapping Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
-        <recordType>B2WExtCat__External_Catalog_Item__c.B2WExtCat__Check</recordType>
+        <layout>Telephony__c-Telephony Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>B2WExtCat__External_Catalog_Item__c-B2WExtCat__External Catalog Item Layout</layout>
-        <recordType>B2WExtCat__External_Catalog_Item__c.B2WExtCat__Approval</recordType>
+        <layout>TestingOrg__mdt-TestingOrg Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Prospect SHP - Account Layout</layout>
-        <recordType>Account.ProspectShp</recordType>
+        <layout>Toponomy_Setting__mdt-Toponomy Setting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Prospect Residential - Account Layout</layout>
-        <recordType>Account.ProspectResidential</recordType>
+        <layout>TracciamentoNotifiche__c-Tracciamento Notifica Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-NE__Account Consumer Layout</layout>
-        <recordType>Account.NE__Consumer</recordType>
+        <layout>User-User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-NE__Account Business Layout</layout>
-        <recordType>Account.NE__Business</recordType>
+        <layout>UserAlt-Layout Profilo utente</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.Flagship</recordType>
+        <layout>WONoticeSetting__mdt-WONoticeSetting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.EnterpriseProspect</recordType>
+        <layout>WorkOrder-Work Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkOrder-Work Order Layout</layout>
         <recordType>WorkOrder.WO_RICONOSCIMENTO_MOBILE</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.EnterprisePartner</recordType>
+        <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.Enterprise</recordType>
+        <layout>WorkaroundLog__c-WorkaroundLog Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NE__Order__c-NE__Layout Order</layout>
-        <recordType>NE__Order__c.Bit2Shop__Stock_Order</recordType>
+        <layout>tecnologiaEscludiCLDB__mdt-tecnologiaEscludiCLDB Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -55120,15 +55332,6 @@
         <modifyAllRecords>false</modifyAllRecords>
         <object>TracciamentoNotifiche__c</object>
         <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>TracciamentoNotifiche__c</object>
-        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -60374,8 +60577,16 @@
         <name>ViewRoles</name>
     </userPermissions>
     <customPermissions>
+        <enabled>false</enabled>
+        <name>CPQ_CPQ_Regioni</name>
+    </customPermissions>
+    <customPermissions>
         <enabled>true</enabled>
         <name>CRMPRE</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>EnableCHP</name>
     </customPermissions>
     <customPermissions>
         <enabled>true</enabled>
@@ -60386,24 +60597,16 @@
         <name>FRODI</name>
     </customPermissions>
     <customPermissions>
+        <enabled>true</enabled>
+        <name>HidePannelloGestioneOrdine</name>
+    </customPermissions>
+    <customPermissions>
         <enabled>false</enabled>
         <name>HideVariazioneCommercialeButton</name>
     </customPermissions>
     <customPermissions>
         <enabled>true</enabled>
         <name>SocialAdminOrTechOperatorProfile</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>false</enabled>
-        <name>CPQ_CPQ_Regioni</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>EnableCHP</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>HidePannelloGestioneOrdine</name>
     </customPermissions>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
