@@ -35,7 +35,6 @@ try:
     merged = compare(parse1,parse2)
     print('merged complete')
     outputxml = generatexml(merged)
-    print(outputxml)
-    writeonfile(outputxml,args.Our,args.Filename)
+    writeonfile(outputxml,args.Our,'')
 except Exception as e:
     print(e)
