@@ -10,6 +10,8 @@ const argv = require("yargs").argv;
 // %B = tmp filepath to the other branches version of the file
 // %P = placeholder / real file name
 // %L = conflict marker size (to be able to still serve according to this setting)
+
+console.log('argv',argv);
 const ours = argv[1];
 const base = argv[2];
 const theirs = argv[3];
