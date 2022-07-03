@@ -12,10 +12,10 @@ const argv = require("yargs").argv._;
 // %L = conflict marker size (to be able to still serve according to this setting)
 
 console.log('argv',argv);
-const ours = argv[1];
-const base = argv[2];
-const theirs = argv[3];
-const filename = argv[4];
+const ours = argv[0];
+const base = argv[1];
+const theirs = argv[2];
+const filename = argv[3];
 
 console.log('ours',ours);
 console.log('base',base);
