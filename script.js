@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 const fs = require("fs");
-const argv = require("yargs").argv;
+const argv = require("yargs").argv._;
 
 // This is the information we pass through in the driver config via
 // the placeholders `%A %O %B %P`
@@ -10,19 +10,21 @@ const argv = require("yargs").argv;
 // %B = tmp filepath to the other branches version of the file
 // %P = placeholder / real file name
 // %L = conflict marker size (to be able to still serve according to this setting)
-const ours = argv[1];
-const base = argv[2];
-const theirs = argv[3];
-const filename = argv[4];
+
+console.log('argv',argv);
+const ours = argv[0];
+const base = argv[1];
+const theirs = argv[2];
+const filename = argv[3];
 
 console.log('ours',ours);
 console.log('base',base);
 console.log('theirs',theirs);
 console.log('filename',filename);
 
-const baseJson = JSON.parse(fs.readFileSync(base));
-const oursJson = JSON.parse(fs.readyFileSync(ours));
-const theirsJson = JSON.parse(fs.readyFileSync(theirs));
+const baseJson = fs.readFileSync(base);
+const oursJson = fs.readFileSync(ours);
+const theirsJson = fs.readFileSync(theirs);
 
 console.log('baseJson',baseJson);
 console.log('oursJson',oursJson);
@@ -31,11 +33,12 @@ console.log('theirsJson',theirsJson);
 // We can do whatever we want, in this example we just take the new entries from
 // our branch and put the new entries from the other branch on top of them
 const mergedJson = {
-  entries: [
-    ...baseJson.entries,
-    ...oursJson.entries.slice(baseJson.entries.length),
-    ...theirsJson.entries.slice(baseJson.entries.length)
-  ]
+  // entries: [
+  //   ...baseJson.entries,
+  //   ...oursJson.entries.slice(baseJson.entries.length),
+  //   ...theirsJson.entries.slice(baseJson.entries.length)
+  // ]
+  'ciao':'hello' 
 };
 
 // To resolve the conflict simply write to the current branch file
