@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 const fs = require("fs");
-const argv = require("yargs").argv;
+const argv = require("yargs").argv._;
 
 // This is the information we pass through in the driver config via
 // the placeholders `%A %O %B %P`
