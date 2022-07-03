@@ -1,4 +1,4 @@
-PositionList = ['fullName','applicationVisibilities','categoryGroupVisibilities','classAccesses','custom','description','externalDataSourceAccesses','fieldPermissions','flowAccesses','layoutAssignments','loginIpRanges','objectPermissions','pageAccesses','recordTypeVisibilities','tabVisibilities','userLicense','userPermissions','customPermissions']
+PositionList = ['fullName','applicationVisibilities','categoryGroupVisibilities','classAccesses','custom','description','externalDataSourceAccesses','fieldPermissions','flowAccesses','layoutAssignments','loginIpRanges','objectPermissions','pageAccesses','recordTypeVisibilities','tabVisibilities','userLicense','userPermissions','customPermissions','customMetadataTypeAccesses']
 
 class applicationVisibilities:
     def __getitem__(self, key):
@@ -587,6 +587,38 @@ class categoryGroupVisibilities:
 
     def instancename(self):
         return 'categoryGroupVisibilities'
+
+class customMetadataTypeAccesses:
+    def __getitem__(self, key):
+        return getattr(self, key)
+
+    def __setitem__(self, key, value):
+        return setattr(self, key, value)
+
+    def __str__(self):
+        return str(self.__dict__)
+
+    def __iter__(self):
+        for attr, value in self.__dict__.items():
+            yield attr, value
+
+    def __lt__(self, other):
+        return self.outputposition() < other.outputposition()
+
+    def __eq__(self, other):
+        return self.__class__ == other.__class__ and self.__getitem__(self.key())==other.__getitem__(other.key())
+
+    def __hash__(self):
+        return hash(self.__getitem__(self.key()))
+
+    def outputposition(self):
+        return PositionList.index(self.instancename())
+
+    def key(self):
+        return 'name'
+
+    def instancename(self):
+        return 'customMetadataTypeAccesses'
 
 def oneLineTag(obj):
     return isinstance(obj, userLicense) or isinstance(obj, custom) or isinstance(obj, fullName) or isinstance(obj, description)
