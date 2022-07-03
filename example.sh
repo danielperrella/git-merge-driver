@@ -17,14 +17,14 @@ git branch -D demo-branch-2
 git checkout -b demo-branch-1
 echo "created on: demo-branch-1" > my-file.mrg
 git add my-file.mrg
-git commit -m"demo-branch-1: added my-file.mrg"
+git commit -m "demo-branch-1: added my-file.mrg"
 
 # Create 'my-file.mrg' on branch 2
 git checkout master
 git checkout -b demo-branch-2
 echo "created on: demo-branch-2" > my-file.mrg
 git add my-file.mrg
-git commit -m"demo-branch-2: added my-file.mrg"
+git commit -m "demo-branch-2: added my-file.mrg"
 
 # Merge the two branches, causing a conflict
-git merge -m"Merged in demo-branch-1" demo-branch-1
+git merge -m "Merged in demo-branch-1" demo-branch-1
