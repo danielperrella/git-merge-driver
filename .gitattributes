@@ -1,1 +1,2 @@
 *.mrg merge=my-custom-driver
+special-file.js merge=custom
