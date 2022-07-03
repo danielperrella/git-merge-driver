@@ -1,8 +1,8 @@
 import argparse
-from profileparser import parse
-from comparator import compare
-from xmlgenerator import generatexml
-from writerutils import writeonfile
+from .profileparser import parse
+from .comparator import compare
+from .xmlgenerator import generatexml
+from .writerutils import writeonfile
 
 # Initialize parser
 parser = argparse.ArgumentParser()
